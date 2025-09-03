@@ -43,13 +43,6 @@ The dataset contains information about used cars, including features such as:
 - Engine Capacity, Horsepower  
 - Price (Target Variable)  
 
-*(Dataset source: [add your dataset source or "confidential/private dataset"])*  
 
----
 
-## 🚀 How to Run
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/car-price-analysis.git
-   cd car-price-analysis
