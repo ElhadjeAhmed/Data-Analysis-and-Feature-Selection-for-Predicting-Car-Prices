@@ -1,13 +1,55 @@
-This project applies data analysis techniques to explore a used car dataset and identify the most important features that influence car prices.
+# 🚗 Data Analysis and Feature Selection for Predicting Car Prices
 
-The workflow includes:
+This project applies **data analysis techniques** to explore a used car dataset and identify the most important features that influence car prices.  
 
-Exploratory Data Analysis (EDA): Understanding the dataset through statistics and visualizations.
+---
 
-Feature Engineering & Selection: Creating new features (e.g., car age), encoding categorical variables, and determining which features contribute the most to price prediction.
+## 📊 Workflow
 
-Modeling: Training a Linear Regression model to predict car prices using the selected features.
+1. **Exploratory Data Analysis (EDA)**  
+   - Understanding the dataset through summary statistics and visualizations.  
+   - Handling missing values and outliers.  
 
-Evaluation: Measuring performance and analyzing how feature selection impacts prediction accuracy.
+2. **Feature Engineering & Selection**  
+   - Creating new features (e.g., `car_age`).  
+   - Encoding categorical variables (Label Encoding / One-Hot Encoding).  
+   - Selecting the most important features for price prediction.  
 
-The goal of this project is to showcase data analysis, feature engineering, and machine learning skills for real-world price prediction tasks.
+3. **Modeling**  
+   - Training a **Linear Regression model** on the processed dataset.  
+   - Comparing model performance before and after feature selection.  
+
+4. **Evaluation**  
+   - Measuring performance using metrics such as **R² Score, MAE, RMSE**.  
+   - Visualizing actual vs predicted prices.  
+
+---
+
+## 🛠️ Technologies Used
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib & Seaborn  
+
+---
+
+## 📂 Dataset
+
+The dataset contains information about used cars, including features such as:  
+- Brand, Model, Year of Production  
+- Mileage, Fuel Type, Transmission  
+- Engine Capacity, Horsepower  
+- Price (Target Variable)  
+
+*(Dataset source: [add your dataset source or "confidential/private dataset"])*  
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/car-price-analysis.git
+   cd car-price-analysis
